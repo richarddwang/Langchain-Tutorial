@@ -18,9 +18,9 @@ REQUIRED_PKGS = [
     # OpenAI
     'openai==0.28.1', # https://github.com/langchain-ai/langchain/issues/12958
     'tiktoken==0.4.0',
-    # Text Generation Webui
-    'sshconf',
-    'sshtunnel',
+    # # Text Generation Webui
+    # 'sshconf',
+    # 'sshtunnel',
 ]
 
 TUTORIAL_REQUIRED_PKGS = [
@@ -44,7 +44,7 @@ TUTORIAL_REQUIRED_PKGS = [
 
 setuptools.setup(
     name="langchain_setup",
-    version="0.0.10.dev",
+    version="0.0.11.dev",
     author="Richard Wang",
     author_email="richardyy1188@gmail.com",
     description="Some customized code for using langchain.",
